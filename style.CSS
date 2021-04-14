@@ -1,0 +1,48 @@
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 190, 176);
+    text-align: center;
+    padding-top: 50px;
+
+}
+main{
+    width: 100%;
+    background-color: azure;
+    margin: 20px;
+    text-align: center;
+
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+}
+table{
+    width: 1200px;
+    background-color: darkturquoise;
+    margin: 40px;
+    padding: 10px;
+    
+}
+tr{
+    
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 30px;
+}
+td{
+    width: 20%;
+    
+    height: 350px;
+    background-color: rgb(255, 190, 176);
+    margin: 20px;
+    border-radius: 10px;    
+
+}
+article{
+    margin: 40px;
+    background-color: coral;
+    padding: 20px;
+}
