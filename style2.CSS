@@ -10,21 +10,20 @@ header{
     color: #330606;
     font-family: Courier New, monospace;
     font-size: 25px;
-
+   
 }
 .headcontent{
     margin: 0px 20px 0px 50px;
     font-size: 90px;
 }
 main{
-    width: 87%;
+    width: 96%;
     background-color: rgb(255, 243, 214);
     margin: 20px;
     text-align: center;
     color: #330606;
     font-family: Courier New, monospace;
     font-size: 25px;
-
 }
 footer{
     padding: 50px 0 0 0;
@@ -35,7 +34,6 @@ footer{
     font-family: Courier New, monospace;
     font-size: 25px;
     color: #ffffff;
-    
 }
 footer p{
     text-align: right;
@@ -50,7 +48,7 @@ table{
 }
 tr{
     border-radius: 15px;
-    background-color: rgb(255, 243, 214);
+    background-color:rgb(250, 187, 155);
     padding: 20px;
     margin: 30px;
     text-align: center;
@@ -62,15 +60,21 @@ td{
     background-color: rgb(250, 187, 155);
     margin: 20px;
     border-radius: 10px;    
+    text-align: left;
 
 }
+p{
+    text-align: center;
+}
+
 article{
     margin: 40px;
-    background-color: rgb(255, 243, 214);
+    background-color: rgb(250, 187, 155);
     padding: 20px;
     border-radius: 15px;
+    
 }
-}
+
 img{
     border-radius: 10px;
 }
