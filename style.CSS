@@ -12,10 +12,12 @@ header{
     font-size: 25px;
 
 }
+
 .headcontent{
     margin: 0px 20px 0px 50px;
     font-size: 90px;
 }
+
 main{
     width: 87%;
     background-color: rgb(255, 243, 214);
@@ -70,6 +72,12 @@ article{
     padding: 20px;
     border-radius: 15px;
 }
+article:hover{
+    box-shadow: 0 0 15px rgb(199, 99, 99)
+}
+article:focus{
+    box-shadow: 0 0 15px rgb(31, 15, 15);
+    background-color: rgb(173, 164, 142);
 }
 img{
     border-radius: 10px;
@@ -77,4 +85,8 @@ img{
 .logo{
     width: 130px;
     height: 115px;
+}
+a{
+    text-decoration: none;
+    color: #330606;
 }
