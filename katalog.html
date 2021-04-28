@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head><title>Стиль невесты</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css')}}">
+</head>
+
+<header>
+    <div class= 'headcontent'><img src = "{{ url_for('static', filename = 'pla.png')}}" class = 'logo'></div>
+    
+    <div class= 'headcontent'> Стиль невесты </div>  
+        
+</header>
+<main>
+    <table> 
+    <tr>
+    <td><a href = "/str2?id1"><article>
+        <img src = "{{url_for('static', filename ='dress1.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+    
+    </article> </a></td> 
+    <td><a href = "/str2?id2"><article> 
+        <img src = "{{ url_for('static', filename ='dress1.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+    
+    </article></a></td>
+    <td><a href = "/str2?id3"><article> 
+        <img src = "{{ url_for('static', filename ='dress2.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+    
+    </article> </a></td>
+    </tr>
+    <tr> 
+    <td><a href = "/str2?id4"><article> 
+        <img src = "{{ url_for('static', filename ='dress6.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+    
+    </article> </a></td>
+    <td><a href = "/str2?id5"><article>
+        <img src = "{{ url_for('static', filename ='dress4.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+     </article> </td>
+    <td><a href = "/str2?id6"><article> <img src = "{{ url_for('static', filename ='dress5.jpg')}}" width="200px" height="300px">
+        <p> Цена</p>
+        <p>Название</p>
+    </article></a> </td>
+    </tr>
+    
+</table> 
+</main>
+<footer>
+    <p>Адрес:ааааааааа</p>
+    <p>Контакты: ааааааааааа</p>    
+
+</footer>
