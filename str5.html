@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head><title>Введите имя</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style2.css')}}">
+</head>
+<header>
+    <div class= 'headcontent'><img src = "{{ url_for('static', filename = 'pla.png')}}" class = 'logo'></div>
+    
+    <div class= 'headcontent'> Стиль Невесты </div>  
+        
+
+</header>
+
+<main>
+    <table> 
+    <tr> 
+    <td> <article>
+        <img src = "{{ url_for('static', filename ='dress5.jpg')}}" width="510px" height="810px">
+
+    </article></td> 
+    <td> <article>
+        <p>{{name}}</p>
+        <p>{{price}}</p>
+        <p>{{opisanie}}
+        ааааааааааааааааааа</p>
+    </article></td>
+    </tr>
+    </table>
+</main>
+
+
+<footer> 
+    <p>Адрес:ааааааааа</p>
+    <p>Контакты: ааааааааааа</p>    
+</footer>
