@@ -5,63 +5,61 @@ def katalog():
     return render_template('katalog.html')
     
 
-name = ''
-price = ''
-opisanie = ''
+
 
 def str1():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id1'):
-        name = 'dress1'
+        name = 'Свадебное платье'
         price='30000'
-        opisanie = 'Da da'
+        opisanie = 'Свадебное платье'
     return render_template('str1.html', name = name, price = price, opisanie= opisanie)
 def str2():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id2'):
-        name = 'dress2'
+        name = 'Свадебное платье'
         price='40000'
-        opisanie = 'Da da'
+        opisanie = 'Свадебное платье'
     return render_template('str2.html', name = name, price = price, opisanie= opisanie)
 def str3():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id3'):
-        name = 'dress1'
+        name = 'Свадебное платье'
         price='45000'
-        opisanie = 'Da da'
+        opisanie = 'Свадебное платье'
     return render_template('str3.html', name = name, price = price, opisanie= opisanie)
 def str4():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id4'):
-        name = 'dress1'
-        price='30000'
-        opisanie = 'Da da'
+        name = 'Свадебное платье'
+        price='50000'
+        opisanie = 'Свадебное платье'
     return render_template('str4.html', name = name, price = price, opisanie= opisanie)
 def str5():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id5'):
-        name = 'dress1'
-        price='30000'
-        opisanie = 'Da da'
+        name = 'Свадебное платье'
+        price='47820'
+        opisanie = 'Свадебное платье'
     return render_template('str5.html', name = name, price = price, opisanie= opisanie)
 def str6():
     name = ''
     price = ''
     opisanie = ''
     if request.url.endswith('id6'):
-        name = 'dress1'
-        price='30000'
-        opisanie = 'Da da'
+        name = 'Свадебное платье'
+        price='394500'
+        opisanie = 'Свадебное платье'
     return render_template('str6.html', name = name, price = price, opisanie= opisanie)
 
 folder = os.getcwd()
